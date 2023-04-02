@@ -1,0 +1,208 @@
+.navbar-nav li a:hover{
+    opacity: 1;
+    color: rgb(69, 230, 69);
+    text-shadow: 1px 0;
+    text-decoration: underline;
+}
+ 
+.btn{
+    background-color: rgb(247, 174, 40);
+    border-color: rgb(247, 174, 40) ;
+}
+
+.btn:hover{
+    opacity: 2;
+    background-color: rgb(245, 193, 97);
+    color: black;
+    border-radius: 2px;
+    border-color: rgb(245, 193, 97);
+}
+.center-text{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.adv-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+}
+.icons-imgs{
+    border-radius: 50%;
+    width: 120px;
+    padding: 5px;
+    background-color: rgb(236, 234, 234);
+}
+.about-us{
+    /* background: url(/assets/imgs/about\ us.jpeg); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-us-h1{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.about-us img{
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 6px;
+    margin-right: 0;
+    padding-right: 0;
+}
+.about-us p{
+    position: relative;
+    top: 8px;
+    left: 16px;
+    /* text-align: left;
+    justify-content: left;
+    margin-right: 5px; */
+    width: 500px;
+
+}
+.container-services h1,p{
+    text-align: center;
+    text-decoration: none;
+}
+.card img{
+    width: 200px;
+    justify-content: center;
+    padding-left: 150px;
+}
+.card h5,p{
+    text-align: center;
+    text-decoration: none;
+}
+#btn-card , #btn-card2 , #btn-card3{
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.card p{
+    text-align: center;
+    justify-content: center;
+}
+.container-portfolio{
+    color: white;
+    display: block;
+    position: absolute;
+    left: 0px;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    /* margin-bottom: 80px; */
+    background-color: black;
+}
+.portfolio-head{
+    text-align: center;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container-portfolio li a{
+    color: rgb(69, 230, 69);
+}
+
+.container-portfolio li a:hover{
+    opacity: 1;
+    color: rgb(247, 174, 40);
+    text-shadow: 1px 0;
+    text-decoration: underline;
+}
+.container-portfolio img{
+    padding-bottom: 30px;
+    justify-content: center;
+    margin-left: 20%;
+    width: 60%;
+}
+.container-process{
+    margin-top: 40%;
+    text-align: center;
+    margin-right: 30px;
+    display: block;
+    position: absolute;
+}
+.container-people-about-us{
+    background-color: rgb(202, 198, 191);
+    display: block;
+    position: absolute;
+    left: 0px;
+    padding-left: 40px;
+    margin-left: -117px;
+    width: 113%;
+    margin-top: 20px;
+}
+.container-people-about-us h1,p{
+    padding: 5px 40px 5px 40px;
+}
+/* .p-a-u-1{
+    display: flex;
+}
+.p-a-u-2 {
+    display: flex;
+} */
+.icon-p-a-u img{
+    border-radius: 50%;
+    width: 120px;
+}
+.container-skills{
+    background-color: white;
+    display: block;
+    position: absolute;
+    padding-right: 50px;
+}
+.container-project{
+    background-color: rgb(69, 230, 69);
+    display: block;
+    position: absolute;
+    left: 0px;
+    padding-left: 40px;
+    margin-left: -143px;
+    width: 111%;
+    margin-top: 20px;
+}
+.container-project h1{
+    color: white;
+    font-size: 60px;
+}
+.container-project form{
+    justify-content: center;
+}
+.container-project p{
+    padding: 20px 100px 0px 100px;
+    color: white;
+}
+.container-contacts{
+    display: block;
+    position: absolute;
+    margin-top: 22%;
+    text-align: center;
+    padding-right: 30px;
+}
+.container-contacts iframe{
+    margin-right: 30px;
+    margin-left: -40px;
+    width: 100%;
+}
+.footer{
+    color: white;
+    background-color: rgb(69, 230, 69);
+    display: block;
+    position: absolute;
+    left: -141px;
+    padding-left: 0px;
+    margin-left: -145px;
+    width: 110%;
+    margin-top: 20px;
+    padding-top: 50px;
+    height: 250px;
+    margin: auto;
+}
+.footer img{
+    width: 120px;
+}
